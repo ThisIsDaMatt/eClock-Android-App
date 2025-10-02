@@ -71,6 +71,20 @@ Alternatively, build from command line:
 ./gradlew assembleDebug
 ```
 
+## Releases
+
+### Download APK
+
+The latest release APK can be downloaded from the [Releases](https://github.com/ThisIsDaMatt/eClock-Android-App/releases) page.
+
+### Creating a Release
+
+To create a new release, follow the [RELEASE_GUIDE.md](RELEASE_GUIDE.md) which covers:
+- Setting up signing keys
+- Configuring GitHub secrets
+- Creating release tags
+- Automated APK building and publishing via GitHub Actions
+
 ## App Structure
 
 ```
