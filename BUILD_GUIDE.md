@@ -142,7 +142,27 @@ Before building the app, ensure you have:
 
 ## Building Release APK
 
-### For Production Release
+### Automated Release (Recommended)
+
+**NEW**: We now have automated APK building and releasing via GitHub Actions!
+
+For the easiest way to create releases:
+1. See [QUICK_START.md](QUICK_START.md) for a step-by-step guide
+2. See [RELEASE_GUIDE.md](RELEASE_GUIDE.md) for comprehensive documentation
+
+The automated workflow will:
+- ✅ Build and sign your APK automatically
+- ✅ Create a GitHub Release
+- ✅ Attach the APK to the release
+- ✅ Generate release notes
+
+Just create a git tag (e.g., `v1.0.0`) and push it - the rest is automatic!
+
+### Manual Release Build (Advanced)
+
+If you need to build locally for testing:
+
+#### For Production Release
 
 1. **Generate Signing Key** (first time only)
    ```bash
