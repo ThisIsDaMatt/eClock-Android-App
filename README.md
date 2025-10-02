@@ -77,10 +77,20 @@ Alternatively, build from command line:
 
 The latest release APK can be downloaded from the [Releases](https://github.com/ThisIsDaMatt/eClock-Android-App/releases) page.
 
-### Creating a Release
+### First-Time Setup
+
+**New to releasing?** Follow these guides in order:
+
+1. **[ADD_SECRETS_GUIDE.md](ADD_SECRETS_GUIDE.md)** - Quick 3-minute guide to add GitHub secrets
+2. **[GITHUB_SECRETS_SETUP.md](GITHUB_SECRETS_SETUP.md)** - Complete setup documentation with all secret values
+3. **[KEYSTORE_SETUP_COMPLETE.md](KEYSTORE_SETUP_COMPLETE.md)** - Summary and next steps checklist
+
+The keystore has already been generated! Just add the 4 secrets to GitHub and create your first release tag.
+
+### Creating Releases
 
 To create a new release, follow the [RELEASE_GUIDE.md](RELEASE_GUIDE.md) which covers:
-- Setting up signing keys
+- Setting up signing keys (already done!)
 - Configuring GitHub secrets
 - Creating release tags
 - Automated APK building and publishing via GitHub Actions
