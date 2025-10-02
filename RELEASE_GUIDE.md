@@ -158,6 +158,10 @@ Examples:
 
 **Solution**: Check the workflow logs to see if the signing step failed. Ensure your keystore secrets are correct.
 
+### Release workflow fails with "Resource not accessible by integration"
+
+**Solution**: This error occurs when the GitHub Actions workflow lacks the necessary permissions to create releases. The workflow has been updated to include the required `permissions: contents: write` setting. If you're still experiencing this issue, ensure you're using the latest version of the workflow file from the repository.
+
 ## Manual Release Build (Local)
 
 If you need to build a release APK locally:

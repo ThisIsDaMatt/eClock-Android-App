@@ -250,6 +250,9 @@ Developer                 GitHub                    Users
 4. **Can't install APK**
    - Solution: Enable "Install from Unknown Sources" in Android settings
 
+5. **Workflow fails - "Resource not accessible by integration"**
+   - Solution: The workflow needs write permissions. This has been fixed by adding `permissions: contents: write` to the workflow file. Pull the latest changes from the repository.
+
 ### Getting Help
 
 - **Build issues:** Check `.github/workflows/` files
