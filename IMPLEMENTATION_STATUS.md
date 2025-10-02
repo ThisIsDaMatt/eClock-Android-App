@@ -221,6 +221,7 @@ git push origin v0.1.0-beta
 | APK not signed | Verify secret values are correct |
 | Build fails | Check Actions logs, ensure dependencies are correct |
 | Can't install APK | Enable "Install from Unknown Sources" |
+| Workflow fails - "Resource not accessible" | Workflow permissions issue - fixed by adding `permissions: contents: write` |
 
 ## Documentation References
 
