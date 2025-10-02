@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">eClock</string>
+    
+    <!-- Navigation -->
+    <string name="nav_clock">Clock</string>
+    <string name="nav_timer">Timer</string>
+    <string name="nav_countdown">Countdown</string>
+    <string name="nav_world_time">World Time</string>
+    <string name="nav_alarm">Alarm</string>
+    
+    <!-- Clock -->
+    <string name="current_time">Current Time</string>
+    <string name="current_date">%1$s</string>
+    
+    <!-- Timer -->
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="lap">Lap</string>
+    <string name="timer_running">Timer Running</string>
+    
+    <!-- Countdown -->
+    <string name="set_countdown">Set Countdown</string>
+    <string name="hours">Hours</string>
+    <string name="minutes">Minutes</string>
+    <string name="seconds">Seconds</string>
+    <string name="countdown_finished">Countdown Finished!</string>
+    
+    <!-- World Time -->
+    <string name="add_timezone">Add Time Zone</string>
+    <string name="search_timezone">Search time zone…</string>
+    
+    <!-- Alarm -->
+    <string name="add_alarm">Add Alarm</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="alarm_time">Alarm Time</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="repeat">Repeat</string>
+    <string name="label">Label</string>
+    <string name="alarm_label">Alarm Label</string>
+</resources>
